@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.gaudiolab/mcp-developers",
+  "description": "Gaudio Lab Audio AI — Stem Separation, DME Separation, AI Text Sync",
+  "repository": {
+    "url": "https://github.com/gaudiolab-jp/gaudio-developers-mcp",
+    "source": "github"
+  },
+  "version": "1.1.3",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@gaudiolab/mcp-developers",
+      "version": "1.1.3",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "GAUDIO_API_KEY",
+          "description": "Gaudio Lab API key from https://www.gaudiolab.com/developers",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+image: node:22
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: Build & Publish to npm
+          caches:
+            - node
+          script:
+            - npm ci
+            - npm run build
+            - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+            - npm publish --access public

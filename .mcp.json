@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "gaudio-developers": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "cwd": "/Users/johnny/gplatform-agents/developers_mcp/gplatform-developers-mcp",
+      "env": {
+        "GAUDIO_API_KEY": "740750c37b9e82940172a34c356b76bb80ff70d939816c79f1fa106964ef5f29877bb24f32ad5a161848c9e977a099c6"
+      }
+    }
+  }
+}
