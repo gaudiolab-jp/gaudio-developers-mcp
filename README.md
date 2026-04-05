@@ -1,5 +1,9 @@
 # @gaudiolab/mcp-developers
 
+[![npm version](https://img.shields.io/npm/v/@gaudiolab/mcp-developers)](https://www.npmjs.com/package/@gaudiolab/mcp-developers)
+[![Glama score](https://glama.ai/mcp/servers/gaudiolab-jp/gaudio-developers-mcp/badges/score.svg)](https://glama.ai/mcp/servers/gaudiolab-jp/gaudio-developers-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 MCP server for [Gaudio Lab](https://www.gaudiolab.com) Audio AI API. Separate vocals, instruments, dialogue, music, effects from any audio/video — or sync lyrics to timestamps — all through natural language in your AI tools.
 
 Works with Claude, ChatGPT, Cursor, VS Code, GitHub Copilot, and any MCP-compatible client.
